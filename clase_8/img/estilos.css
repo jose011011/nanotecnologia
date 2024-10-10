@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #0e1a29; /* Fondo oscuro y profesional */
+    color: #d4e6f1; /* Texto en tonos claros */
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #00d4ff; /* Azul neón para los enlaces */
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background: linear-gradient(to right, #00ff88, #0055ff); /* Degradado tecnológico en verde neón y azul eléctrico */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); /* Sombra más marcada y brillante */
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.logotipo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    color: #e1fffa; /* Color de título más suave */
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 15px;
+    color: #ffffff; /* Blanco para los enlaces en el menú */
+    transition: color 0.3s ease-in-out; /* Transición suave para hover */
+}
+
+nav a:hover {
+    color: #00ff88; /* Verde neón al pasar el ratón */
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
+}
+
+#video {
+    margin: 20px 0;
+    text-align: center;
+}
+
+iframe {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3); /* Mayor sombra en el vídeo */
+    width: 100%;
+    height: 350px; /* Tamaño más grande para el video */
+}
+
+.article-box {
+    background: linear-gradient(to right, #0a5275, #0c7a9f); /* Degradado frío y moderno */
+    border: 2px solid #33ccff; /* Borde en cian para destacar */
+    border-radius: 20px; /* Esquinas menos redondeadas para un look más técnico */
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 6px 20px rgba(0, 255, 255, 0.1); /* Sombra clara para el artículo */
+    text-align: center;
+}
+
+.article-title {
+    color: #e1fffa;
+    font-family: 'Roboto', sans-serif; /* Fuente más tecnológica */
+    font-style: normal;
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+.article-image {
+    display: block;
+    width: 40%; /* Imagen más grande para mayor impacto visual */
+    border-radius: 8px;
+    margin: 15px auto;
+}
+
+.article-link {
+    font-weight: bold;
+    color: #00d4ff;
+    transition: color 0.3s ease-in-out;
+}
+
+.article-link:hover {
+    text-decoration: underline;
+    color: #00ff88; /* Cambio de color al verde neón en hover */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #d4e6f1;
+    font-style: normal;
+}
